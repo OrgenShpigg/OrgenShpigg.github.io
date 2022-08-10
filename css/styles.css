@@ -1,0 +1,110 @@
+:root {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    --main-color: rgb(255, 113, 67);
+    --light-main-color: rgba(255, 113, 67, 0.27);
+    --dark-main-color: rgb(159, 57, 25);
+    --text-color: rgb(105, 104, 113);
+    --dark-text-color: rgb(25, 25, 27);
+    --violet-color: rgb(84, 84, 212);
+}
+
+.header-bar,
+.footer-bar {
+    background-color: var(--light-main-color);
+    padding: 38px 0 47px 0;
+}
+
+.center-cont {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.navigation-item {
+    display: inline-block;
+}
+
+.navigation-item:not(:first-of-type) {
+    margin-left: 49px;
+}
+
+.navigation-link {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 15px;
+    line-height: 1.33;
+    /* identical to box height 20px*/
+    letter-spacing: -0.468947px;
+}
+
+.navigation-link:hover {
+    color: var(--dark-text-color);
+    transition: 300ms;
+}
+
+.btn {
+    width: 215px;
+    height: 60px;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 17px;
+    line-height: 1.29;
+    /* 22px; */
+    text-align: center;
+    letter-spacing: -0.531474px;
+    cursor: pointer;
+    /* transition: 500ms; */
+}
+
+.orange-btn {
+    background: var(--main-color);
+    color: #fff;
+}
+
+.orange-btn:hover {
+    background: var(--dark-main-color);
+    transition: 500ms;
+}
+
+.hero-title {
+    max-width: 467px;
+    font-size: 80px;
+    line-height: 0.96;
+    /* or 77px*/
+    letter-spacing: -2.50105px;
+    color: var(--dark-text-color);
+    margin-bottom: 30px;
+}
+
+.main-text {
+    width: 464px;
+    height: 90px;
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    /* or 30px*/
+    letter-spacing: -0.625263px;
+    color: var(--text-color);
+    margin-bottom: 50px;
+}
+
+.violet-btn {
+    background: var(--violet-color);
+    color: #fff;
+}
+
+.blank-btn {
+    background:  #fff;
+    color: var(--violet-color);
+    border: 1px solid var(--violet-color);
+    margin-left: 35px;
+}
+
+.subscribe-title {
+    font-size: 50px;
+    line-height: 1.14;
+    /* identical to box height, 57px*/
+    letter-spacing: -1.56316px;
+    color: var(--dark-text-color);
+}
