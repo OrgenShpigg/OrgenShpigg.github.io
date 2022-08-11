@@ -204,9 +204,8 @@
     margin-top: 36px;
 }
 
-/* .active  */
 .pricing-card:hover {
-    
+    transition: 400ms;
     color: #fff;
     background: var(--main-color);
     box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
