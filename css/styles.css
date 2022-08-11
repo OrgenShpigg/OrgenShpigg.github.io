@@ -7,6 +7,7 @@
     --text-color: rgb(105, 104, 113);
     --dark-text-color: rgb(25, 25, 27);
     --violet-color: rgb(84, 84, 212);
+    --light-bg-color: rgb(248, 248, 248);
 }
 
 .header-bar,
@@ -16,8 +17,18 @@
 }
 
 .center-cont {
-    max-width: 1440px;
+    max-width: 1070px;
     margin: 0 auto;
+}
+
+.header-flex,
+.footer-flex,
+.hero-section,
+.subs-section,
+.cards-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navigation-item {
@@ -66,6 +77,10 @@
     transition: 500ms;
 }
 
+.hero-section {
+    margin: 105px auto 85px;
+}
+
 .hero-title {
     max-width: 467px;
     font-size: 80px;
@@ -95,10 +110,14 @@
 }
 
 .blank-btn {
-    background:  #fff;
+    background: #fff;
     color: var(--violet-color);
     border: 1px solid var(--violet-color);
     margin-left: 35px;
+}
+
+.subs-section {
+    margin: 85px auto;
 }
 
 .subscribe-title {
@@ -107,4 +126,85 @@
     /* identical to box height, 57px*/
     letter-spacing: -1.56316px;
     color: var(--dark-text-color);
+}
+
+.email-input-field {
+    font-family: inherit;
+    font-weight: inherit;
+    width: 302px;
+    height: 60px;
+    border: 1px solid #7087FF;
+    border-radius: 10px;
+    padding-left: 14px;
+}
+
+.email-input-field::placeholder {
+    font-size: 17px;
+    line-height: 1.29;
+    letter-spacing: -0.531474px;
+    color: #000;
+}
+
+.violet-btn[type="submit"] {
+    margin-left: 39px;
+}
+
+.pricing-title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1.17;
+    /* or 70px*/
+    letter-spacing: -1.87579px;
+    color: var(--dark-text-color);
+    margin-bottom: 110px;
+}
+
+.pricing-card {
+    width: 330px;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    padding-top: 34px;
+    padding-bottom: 27px;
+    /* text format */
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 2.94; /* or 50px*/
+    letter-spacing: -0.531474px;
+    color: var(--text-color);
+    text-align: center;
+    margin-bottom: 132px;
+}
+
+.pticing-card-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    /* identical to box height, 28px*/
+    letter-spacing: -0.562737px;
+    margin-bottom: 22px;
+}
+
+.prising-card-cost {
+    font-size: 28px;
+    line-height: 2;
+    /* identical to box height, or 200% 56px*/
+    letter-spacing: -1.03448px;
+    color: rgb(29, 41, 63);
+}
+
+.prising-card-cost>span {
+    font-size: 60px;
+    line-height: 0.93;
+    /* identical to box height, 56px*/
+}
+
+.active {
+color: #fff;
+background: var(--main-color);
+box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+}
+
+.active>.btn {
+    background: var(--dark-main-color);
+    color: inherit;
 }

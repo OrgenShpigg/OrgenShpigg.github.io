@@ -11,22 +11,30 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Mulish&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href=".\css\reset.css" />
-    <link rel="stylesheet" href=".\css\styles.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header -->
     <header class="header-bar">
-      <div class="center-cont">
+      <div class="center-cont header-flex">
         <div>
           <a href="#"><img src="./img/logo.svg" alt="Logo" width="201" /></a>
         </div>
         <nav class="navigation">
           <ul>
-            <li class="navigation-item"><a href="#" class="navigation-link">Home</a></li>
-            <li class="navigation-item"><a href="#" class="navigation-link">Features</a></li>
-            <li class="navigation-item"><a href="#" class="navigation-link">Pricing</a></li>
-            <li class="navigation-item"><a href="#" class="navigation-link">Blog</a></li>
+            <li class="navigation-item">
+              <a href="#" class="navigation-link">Home</a>
+            </li>
+            <li class="navigation-item">
+              <a href="#" class="navigation-link">Features</a>
+            </li>
+            <li class="navigation-item">
+              <a href="#" class="navigation-link">Pricing</a>
+            </li>
+            <li class="navigation-item">
+              <a href="#" class="navigation-link">Blog</a>
+            </li>
           </ul>
         </nav>
         <div></div>
@@ -35,7 +43,7 @@
     </header>
     <main>
       <!-- Hero -->
-      <section class="center-cont">
+      <section class="center-cont hero-section">
         <div>
           <h1 class="hero-title">Grow your subscription business</h1>
           <p class="main-text">
@@ -52,62 +60,81 @@
         </div>
       </section>
       <!-- Subscribe -->
-      <section class="center-cont">
+      <section class="center-cont subs-section">
         <div>
           <img src="./img/subscribe.png" alt="Subscrybe man" width="349" />
         </div>
         <div>
           <h2 class="subscribe-title">Subscription index</h2>
           <form action="#">
-            <input type="text" placeholder="Email"/>
+            <input
+              type="text"
+              placeholder="Email"
+              class="email-input-field"
+              required
+            />
             <button type="submit" class="btn violet-btn">Try</button>
           </form>
         </div>
       </section>
       <!-- Pricing -->
       <section class="center-cont">
-        <h2>Get the right plan for future</h2>
-        <ul>
-          <li>
-            <h4>Starter</h4>
-            <h3><span>Free</span></h3>
-            <p>1 Website</p>
-            <p>5 GB Hosting</p>
-            <p>Limited Support</p>
-            <button type="button" class="btn">Get Started</button>
+        <h2 class="pricing-title">Get the right plan for future</h2>
+        <ul class="pricing-cards cards-flex">
+          <li class="pricing-card">
+            <h4 class="pticing-card-title">Starter</h4>
+            <h3 class="prising-card-cost"><span>Free</span></h3>
+            <p class="pricing-card-text">1 Website</p>
+            <p class="pricing-card-text">5 GB Hosting</p>
+            <p class="pricing-card-text">Limited Support</p>
+            <button type="button" class="btn pricing-card-btn">
+              Get Started
+            </button>
           </li>
-          <li>
-            <h4>Premium</h4>
-            <h3><span>$29</span>/month</h3>
-            <p>10 Website</p>
-            <p>15 GB Hosting</p>
-            <p>Premium Support</p>
-            <button type="button" class="btn">Get Started</button>
+          <li class="pricing-card active">
+            <h4 class="pticing-card-title">Premium</h4>
+            <h3 class="prising-card-cost active"><span>$29</span>/month</h3>
+            <p class="pricing-card-text">10 Website</p>
+            <p class="pricing-card-text">15 GB Hosting</p>
+            <p class="pricing-card-text">Premium Support</p>
+            <button type="button" class="btn pricing-card-btn">
+              Get Started
+            </button>
           </li>
-          <li>
-            <h4>Enterprise</h4>
-            <h3><span>$49</span>/month</h3>
-            <p>Unlimited Website</p>
-            <p>50 GB Hosting</p>
-            <p>Premium Support</p>
-            <button type="button" class="btn">Get Started</button>
+          <li class="pricing-card">
+            <h4 class="pticing-card-title">Enterprise</h4>
+            <h3 class="prising-card-cost"><span>$49</span>/month</h3>
+            <p class="pricing-card-text">Unlimited Website</p>
+            <p class="pricing-card-text">50 GB Hosting</p>
+            <p class="pricing-card-text">Premium Support</p>
+            <button type="button" class="btn pricing-card-btn">
+              Get Started
+            </button>
           </li>
         </ul>
       </section>
     </main>
     <!-- Footer -->
     <footer class="footer-bar">
-      <div class="center-cont">
-      <div>
-        <a href="#"><img src="./img/logo.svg" alt="Logo" width="201" /></a>
+      <div class="center-cont footer-flex">
+        <div>
+          <a href="#"><img src="./img/logo.svg" alt="Logo" width="201" /></a>
+        </div>
+        <ul>
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">Home</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">Features</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">Pricing</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">Blog</a>
+          </li>
+        </ul>
       </div>
-      <ul>
-        <li class="navigation-item"><a href="#" class="navigation-link">Home</a></li>
-        <li class="navigation-item"><a href="#" class="navigation-link">Features</a></li>
-        <li class="navigation-item"><a href="#" class="navigation-link">Pricing</a></li>
-        <li class="navigation-item"><a href="#" class="navigation-link">Blog</a></li>
-      </ul>
-    </div>
     </footer>
   </body>
 </html>
