@@ -198,6 +198,10 @@
     /* identical to box height, 56px*/
 }
 
+.pricing-card-btn {
+    margin-top: 36px;
+}
+
 .active {
 color: #fff;
 background: var(--main-color);
