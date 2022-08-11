@@ -5,3 +5,5 @@ Byte education maraphon august 2022
 (10.08.2022) Layout done
 
 (10.08.2022) Start styling
+
+(11.08.2022) Fully styled site
