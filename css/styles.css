@@ -126,6 +126,7 @@
     /* identical to box height, 57px*/
     letter-spacing: -1.56316px;
     color: var(--dark-text-color);
+    margin-bottom: 38px;
 }
 
 .email-input-field {
