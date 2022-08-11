@@ -169,7 +169,8 @@
     /* text format */
     font-weight: 400;
     font-size: 17px;
-    line-height: 2.94; /* or 50px*/
+    line-height: 2.94;
+    /* or 50px*/
     letter-spacing: -0.531474px;
     color: var(--text-color);
     text-align: center;
@@ -203,13 +204,15 @@
     margin-top: 36px;
 }
 
-.active {
-color: #fff;
-background: var(--main-color);
-box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+/* .active  */
+.pricing-card:hover {
+    
+    color: #fff;
+    background: var(--main-color);
+    box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
 }
 
-.active>.btn {
+.pricing-card:hover>.btn {
     background: var(--dark-main-color);
-    color: inherit;
+    color: #fff;
 }
