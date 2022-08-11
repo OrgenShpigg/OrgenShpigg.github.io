@@ -48,7 +48,8 @@
     letter-spacing: -0.468947px;
 }
 
-.navigation-link:hover {
+.navigation-link:hover,
+.navigation-link:focus {
     color: var(--dark-text-color);
     transition: 300ms;
 }
@@ -72,7 +73,8 @@
     color: #fff;
 }
 
-.orange-btn:hover {
+.orange-btn:hover,
+.orange-btn:focus {
     background: var(--dark-main-color);
     transition: 500ms;
 }
@@ -204,6 +206,7 @@
     margin-top: 36px;
 }
 
+/* .active  */
 .pricing-card:hover {
     transition: 400ms;
     color: #fff;
