@@ -114,6 +114,7 @@
 .violet-btn:focus {
     background:  #fff;
     color: var(--violet-color);
+    border: 1px solid var(--violet-color);
 }
 
 .blank-btn {
