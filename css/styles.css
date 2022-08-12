@@ -112,9 +112,9 @@
 }
 .violet-btn:hover,
 .violet-btn:focus {
-    background:  #fff;
-    color: var(--violet-color);
     border: 1px solid var(--violet-color);
+    opacity: 0.5;
+    transition: 500ms;
 }
 
 .blank-btn {
@@ -128,7 +128,8 @@
 .blank-btn:focus {
     color: #fff;
     background: var(--violet-color);
-    transition: 300ms;
+    opacity: 0.5;
+    transition: 500ms;
 }
 
 .subs-section {
