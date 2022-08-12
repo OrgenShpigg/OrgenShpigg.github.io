@@ -110,12 +110,24 @@
     background: var(--violet-color);
     color: #fff;
 }
+.violet-btn:hover,
+.violet-btn:focus {
+    background:  #fff;
+    color: var(--violet-color);
+}
 
 .blank-btn {
     background: #fff;
     color: var(--violet-color);
     border: 1px solid var(--violet-color);
     margin-left: 35px;
+}
+
+.blank-btn:hover,
+.blank-btn:focus {
+    color: #fff;
+    background: var(--violet-color);
+    transition: 300ms;
 }
 
 .subs-section {
